@@ -30,7 +30,7 @@ This is a simple in-memory ledger API built with ASP.NET Core, designed as a tak
 
 2.  **Clone the Repository**:
     ```bash
-    git clone <repository-link-here> # Replace with the actual repository link
+    git clone https://github.com/anapaduraru80/TinyLedger
     cd TinyLedger
     ```
 
