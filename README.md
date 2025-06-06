@@ -39,9 +39,19 @@ This is a simple in-memory ledger API built with ASP.NET Core, designed as a tak
     ```bash
     dotnet run
     ```
-    The application will typically start on `https://localhost:7080` (or another port assigned by ASP.NET Core). The exact URL will be displayed in the console output.
+    The application will start on `https://localhost:7058` (HTTPS) and `http://localhost:5034` (HTTP). The exact URLs will be displayed in the console output.
 
     You can also run it via Visual Studio or VS Code if you have them installed.
+
+## API Endpoints and Examples
+
+Once the application is running, you can access the Swagger UI at `https://localhost:7058/swagger` to explore the API endpoints interactively.
+
+**Important**: All endpoints require the fixed account ID `12345678-1234-5678-9abc-123456789012` in the URL path.
+
+Base URL: `https://localhost:7058/api/accounts/12345678-1234-5678-9abc-123456789012`
+
+*(Note: When using `curl` with `https://localhost`, you might need to use the `-k` or `--insecure` flag to bypass SSL certificate validation warnings, as the development certificate is self-signed.)*
 
 ## Running Tests
 
