@@ -1,0 +1,6 @@
+﻿/.vs
+/TinyLedger/bin/Debug/net8.0
+/TinyLedger/obj/Debug/net8.0
+/TinyLedger/obj
+/TinyLedger.Tests/bin/Debug/net8.0
+/TinyLedger.Tests/obj
